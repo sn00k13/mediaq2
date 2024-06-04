@@ -61,6 +61,7 @@
     width: 100%;
     background-color: grey;
     font-size: 24px;
+    padding: 20px;
 }
 .thor {
     width: 100%;
@@ -71,7 +72,7 @@
 }
 .body3-container {
     height: 100px;
-    width: 60%;
+    width: 80%;
     margin: auto;
     background-color: rgb(16, 85, 214);
     display: flex;
@@ -81,15 +82,16 @@
     align-items: center;
 }
 .cont3{
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding-right: 50px;
     align-items: center;
+    gap: 10px;
 }
 #body3 {
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-color: white;
 }
@@ -134,6 +136,7 @@
     margin-top: 100px;
     padding: 10px;
     display: flex;
+    gap: 10px;
 }
 .awesome {
     height: 100%;
@@ -234,5 +237,41 @@
     #body2 {
         position: relative;
         top: 750px;
+    }
+    #body3 {
+        position: relative;
+        top: 700px;
+    }
+    .body3-container {
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+    .body3-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .call {
+        width: 100%;
+        text-align: center;
+    }
+    .sign-up {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+        position: relative;
+        top: 650px;
     }
 }
