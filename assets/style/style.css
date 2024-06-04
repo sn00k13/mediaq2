@@ -59,7 +59,7 @@
 #body2 {
     height: 400px;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(214, 214, 214);
     font-size: 24px;
     padding: 20px;
 }
@@ -218,7 +218,6 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        overflow: scroll;
     }
     .bodysect {
         width: 100%;
